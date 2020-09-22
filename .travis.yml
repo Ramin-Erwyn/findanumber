@@ -3,6 +3,6 @@ language: java
 
 sudo: false
 before_script:
-  - chmod a+x ./gradlew
+  - chmod +x gradle/wrapper/gradle-wrapper.jar
 script:
   - ./gradlew check
