@@ -1,10 +1,8 @@
 
 language: java
-jdk:
-  - 14.0.2
 
 sudo: false
 before_script:
-  - chmod a+x gradlew && ./gradlew build
+  - chmod a+x ./gradlew
 script:
   - ./gradlew check
