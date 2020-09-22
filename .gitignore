@@ -24,14 +24,8 @@ hs_err_pid*
 
 # Ignore Gradle project-specific cache directory
 .gradle
-chmod +x gradle/wrapper/gradle-wrapper.jar
 
 # Ignore Gradle build output directory
 build
 
-# VSC
-.classpath
-.project
-.settings
-
-
+.idea/
