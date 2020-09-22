@@ -1,8 +1,10 @@
 
 language: java
+jdk:
+  - 14.0.2
 
 sudo: false
 before_script:
-  - chmod +x gradle/wrapper/gradle-wrapper.jar
+  - chmod a+x gradlew && ./gradlew build
 script:
   - ./gradlew check
